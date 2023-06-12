@@ -17,4 +17,4 @@
     - Dağıtılmış ve yerelleştirilmiş üretim
     - Artan enerji talebi
     - Enerji yoksulluğu
-    - Izgara kararlılığı
+    - Grid kararlılığı
