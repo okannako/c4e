@@ -13,7 +13,6 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential git ncdu -y
 sudo apt install make -y && cd $HOME
-sleep 1
 ```
 
 ## Go Yüklemesi
