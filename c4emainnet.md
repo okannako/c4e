@@ -1,4 +1,4 @@
- <h1 align="center">Mainnet Installation Guide</h1>
+ <h1 align="center">Mainnet Kurulum Rehberi</h1>
  
  ### Tavsiye Edilen Sistem Gereksinimleri
 - CPU: 4 cores
