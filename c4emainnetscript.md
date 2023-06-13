@@ -1,3 +1,4 @@
+ <h1 align="center">Mainnet Tek Kod</h1>
 - Aşağıdaki tek kodu çalıştırdıktan sonra sisteme eşitlenmesini beklerken cüzdan ekleme işlemlerini yapabilirsiniz.
 ```
 curl -s https://raw.githubusercontent.com/okannako/c4e/main/c4emainnet.sh > c4emainnet.sh  && chmod +x c4emainnet.sh  && ./c4emainnet.sh 
