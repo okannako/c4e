@@ -61,8 +61,8 @@ cp genesis.json ~/.c4e-chain/config/
 
 - Config Ayarları
 ```
-sed -e "s|persistent_peers = \".*\"|persistent_peers = \"$(cat .data | grep -oP 'Persistent peers\s+\K\S+')\"|g" ~/.c4e-chain/config/config.toml > ~/.c4e-chain/config/config.toml.tmp
-mv ~/.c4e-chain/config/config.toml.tmp  ~/.c4e-chain/config/config.toml
+peers="5a0e2f1a0541ba34cab61f64b62faaeb4113f2df@65.108.6.45:61056"
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.c4e-chain/config/config.toml
 sed -i 's/max_num_inbound_peers =.*/max_num_inbound_peers = 50/g' $HOME/.c4e-chain/config/config.toml
 sed -i 's/max_num_outbound_peers =.*/max_num_outbound_peers = 50/g' $HOME/.c4e-chain/config/config.toml
 ```
