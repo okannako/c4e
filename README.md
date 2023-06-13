@@ -1,4 +1,4 @@
-![Car Crash Tv](https://github.com/okannako/c4e/assets/73176377/2377c7aa-e012-4994-8c34-4e0bffa5be00)
+![c4e](https://github.com/okannako/c4e/assets/73176377/31576c24-a991-49f4-8df8-5df909b05ff8)
 
 ## Giriş
 
