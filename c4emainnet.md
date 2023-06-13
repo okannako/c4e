@@ -30,13 +30,13 @@ source $HOME/.bash_profile
 ## C4e Binary
 - İlk 3 kodu sırayla girdikten sonra mutlaka versiyon kontrolü yapın.
 ```
-git clone --depth 1 --branch  v1.0.1  https://github.com/chain4energy/c4e-chain.git
+git clone --depth 1 --branch  v1.2.0  https://github.com/chain4energy/c4e-chain.git
 cd c4e-chain/
 make install
 ```
 ```
 c4ed version
-output: 1.0.1
+output: 1.2.0
 ```
 
 ## C4e Config Ayarları
