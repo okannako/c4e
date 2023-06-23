@@ -107,7 +107,6 @@ cp $HOME/.c4e-chain/data/priv_validator_state.json $HOME/.c4e-chain/priv_validat
 rm -rf $HOME/.c4e-chain/data
 curl -o - -L http://c4e.snapshot.stavr.tech:1018/c4e/c4e-snap.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.c4e-chain --strip-components 2
 mv $HOME/.c4e-chain/priv_validator_state.json.backup $HOME/.c4e-chain/data/priv_validator_state.json
-wget https://raw.githubusercontent.com/obajay/nodes-Guides/main/C4E/genesis.json -O $HOME/.c4e-chain/config/genesis.json
 ```
 
 - Node Başlatmak
