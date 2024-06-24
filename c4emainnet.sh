@@ -34,7 +34,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 
 echo -e "\e[1m\e[32m>>>İlgili Dosyalar Yükleniyor<<< \e[0m" && sleep 2
-git clone --depth 1 --branch  v1.2.0  https://github.com/chain4energy/c4e-chain.git
+git clone --depth 1 --branch  v1.3.0  https://github.com/chain4energy/c4e-chain.git
 cd c4e-chain/
 make install
 c4ed version
